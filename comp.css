@@ -1,0 +1,173 @@
+/* body */
+    body {
+      margin : 0 ;
+      padding : 0 ;
+      background-color:hsl(0deg 0% 12%);
+    }   
+   
+     p, h1 , h2 , h3 , h4 , h5, h6 , b {
+      color: whitesmoke ;
+      font-family : 'Roboto', sans-serif;
+      }
+  
+/* navbar */
+  .navbar{
+      background-color:hsl(0deg 0% 12%);  
+      display:flex;
+      align-items:center;
+      justify-content:center;
+}
+.navbar li{
+    font-family :"Roboto", sans-serif;
+    float:left;
+    list-style: none; 
+    margin: 12px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: hsl(0deg 0% 95%);
+    
+}
+.navbar li a{
+    color: hsl(0deg 0% 95%) ;
+}
+
+.ul { 
+  margin : auto ;
+}
+
+
+
+  .introDiv
+  {
+    background-image: url("../../../Pull-Bear-ropa.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 916px;
+    background-size: cover;
+  }
+
+
+
+
+.Container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 1404px;
+    margin-top: 29px ;
+}
+
+.child-container{
+  border: 1px solid white ;
+  margin: auto;
+  width: 1230px;
+}
+
+.divs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left:5px ;
+}
+
+.cards {
+  text-align: center;
+  width: 18rem; 
+  background-color:hsl(0deg 0% 12%) ;
+  margin-left: 70px;
+  box-shadow: #b9a68e 15px 10px;
+  border-radius: 10px;
+}
+
+
+.aboutUs
+  {
+    display : flex ; 
+    margin: auto;
+    width: 1426px;
+    margin: auto;
+    margin-top: 50px;
+}
+  
+
+.aboutUs-child {
+  display : flex ; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+
+
+  .contactUs{
+    border: 1px solid white ;
+    height: 496px;
+    margin: auto;
+    margin-top: 134px;
+    width: 975px;
+}
+
+
+.Products {
+    /*   border: 1px solid white;*/
+    margin: auto;
+    width: 1401px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+.product1 {
+  text-align:center;
+  width:290px;
+  margin-bottom:36px; 
+  background-color:hsl(0deg 0% 12%) ;
+  margin-left:70px;
+  box-shadow: #b9a68e 15px 10px;
+  border-radius:8px;
+}
+
+
+
+.delivery {
+  /* border : 1px solid white ;*/
+    margin:auto;
+    width:1404px;
+    margin-top:49px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.descri{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  /*border: 1px solid white;*/
+  width:696px; 
+      }
+
+.feedback {
+  /*border: 1px solid white;*/
+  margin: auto;
+    width: 1404px;
+    margin-top: 49px;
+    margin-top: 49px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.deliverySection {
+  border: 1px solid white;
+    margin: auto;
+    width: 953px;
+    margin-top: 89px;
+    height: 537px;
+}
