@@ -3,7 +3,11 @@
       margin : 0 ;
       padding : 0 ;
       background-color:hsl(0deg 0% 12%);
-    }   
+    } 
+    
+    a{
+      text-decoration: none;
+    }
    
      p, h1 , h2 , h3 , h4 , h5, h6 , b {
       color: whitesmoke ;
@@ -113,7 +117,6 @@
 
 
 .Products {
-    /*   border: 1px solid white;*/
     margin: auto;
     width: 1401px;
     display: flex;
@@ -126,7 +129,7 @@
 .product1 {
   text-align:center;
   width:290px;
-  margin-bottom:36px; 
+  margin-bottom:60px; 
   background-color:hsl(0deg 0% 12%) ;
   margin-left:70px;
   box-shadow: #b9a68e 15px 10px;
@@ -136,7 +139,6 @@
 
 
 .delivery {
-  /* border : 1px solid white ;*/
     margin:auto;
     width:1404px;
     margin-top:49px;
@@ -149,12 +151,10 @@
   justify-content:center;
   align-items:center;
   flex-wrap:wrap;
-  /*border: 1px solid white;*/
   width:696px; 
       }
 
 .feedback {
-  /*border: 1px solid white;*/
   margin: auto;
     width: 1404px;
     margin-top: 49px;
@@ -165,9 +165,73 @@
 
 
 .deliverySection {
-  border: 1px solid white;
     margin: auto;
-    width: 953px;
-    margin-top: 89px;
-    height: 537px;
+      width: 436px ;
+        margin-top: 89px;
+          height: 537px;
+            display :flex;
+                flex-direction : column;
+                  flex-wrap: wrap;
+                    }
+
+
+/* feedback*/
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #b9a68e;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#b9a68e;
+  border-radius:5px;
+  border:0;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.des {
+    margin: auto;
+    margin-top: 60px;
+    height: 578px;
+    width: 1064px;
+    display : flex ; 
+}
+
+.pg {
+    margin: auto;
+    width: 570px;
+    height: 475px;
+    display : flex ; 
+    justify-content:center ;
+    align-items :center ;
+    flex-direction:column ;
+
 }
